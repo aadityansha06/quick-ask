@@ -1,0 +1,18 @@
+
+.nav-link{
+  color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#ffffffc0;
+}
+.nav-style:hover{
+    color: cyan;
+}
+
