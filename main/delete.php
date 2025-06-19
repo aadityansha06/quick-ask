@@ -31,8 +31,10 @@ if (isset($_POST['del-id'])) {
         $stmt->execute([$questionId]);
 
         // Delete hashtag mappings
-        $stmt = $conn->prepare("DELETE FROM question_hastag WHERE ques_id = ?");
-        $stmt->execute([$questionId]);
+      // Delete hashtag mappings
+// ✅ ONLY remove the mapping
+$stmt = $conn->prepare("DELETE FROM question_hastag WHERE ques_id = ?");
+$stmt->execute([$questionId]);
 
         // Delete question
         $stmt = $conn->prepare("DELETE FROM question WHERE id = ? AND user_id = ?");

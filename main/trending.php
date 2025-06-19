@@ -19,6 +19,7 @@ include('main/common.php');
     ");
     $trendStmt->execute();
     $trendingTags = $trendStmt->fetchAll(PDO::FETCH_ASSOC);
+    
     ?>
 
     <?php foreach ($trendingTags as $tag): ?>

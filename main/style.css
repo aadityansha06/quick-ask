@@ -16,3 +16,28 @@ a{
     color: cyan;
 }
 
+.footer-icon-link {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.6rem;
+    color: #00ffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .footer-icon-link:hover {
+    color: #00cccc;
+    transform: scale(1.2);
+  }
+
+
+  .footer-metallic-text {
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(90deg, #e6e6e6, #ffffff, #dcdcdc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
