@@ -20,12 +20,6 @@ $sucess = $_SESSION['success_ques'] ?? null;
    include('common.php');
  
 
-
-if (!isset($_SESSION['user']['username'])) {
-    header("Location: index.php?login=true");
-    exit;
-}
-
    
    ?>
 
@@ -34,6 +28,7 @@ if (!isset($_SESSION['user']['username'])) {
     body{
         background:#111;
         color:#fff;
+        width: 100%;
     }
    .btn{
         background:#00ffff;

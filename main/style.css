@@ -41,3 +41,28 @@ a{
     letter-spacing: 0.5px;
     display: inline-block;
 }
+
+/* Apply to make the layout full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: black;
+}
+
+main {
+  flex: 1; /* This makes sure main content takes up the remaining space */
+}
+
+/* Optional: Add styling for footer to always appear at bottom */
+footer {
+  padding: 20px 0;
+  background-color: #111;
+  border-top: 1px solid cyan;
+}
