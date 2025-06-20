@@ -1,4 +1,4 @@
-# [📚](https://quick-ask.byethost6.com/android-chrome-512x512.png)Quick‑Ask  
+# [📚]Quick‑Ask  
 
 Welcome to **Quick‑Ask** — your go-to Q&A platform for developers! Built with PHP, MySQL, and a sleek dark-cyan theme, it allows users to **ask**, **search**, and **answer** programming questions easily.
 
