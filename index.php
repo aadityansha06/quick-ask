@@ -1,3 +1,25 @@
+<?php
+session_start();
+  if (isset($_GET['logout'])&& $_GET['logout']==true){
+session_destroy();
+
+
+header("Location:index.php");
+exit;
+  
+}
+if (isset($_GET['ask-question']) && $_GET['ask-question'] === 'true') {
+    if (!isset($_SESSION['user']['username'])) {
+        header("Location: index.php?login=true&redirect=ask-question");
+        exit;
+    } 
+}
+
+ ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +46,7 @@
 </head>
 <body>
 <?php
-session_start();
+
  include('main/header.php');
  ?>
  <main class="container">
@@ -43,14 +65,6 @@ else if(isset($_GET['login'])&& $_GET['login']==true && !isset($_SESSION['user']
 
  }
 
-if (isset($_GET['ask-question']) && $_GET['ask-question'] === 'true') {
-    if (!isset($_SESSION['user']['username'])) {
-        header("Location: index.php?login=true&redirect=ask-question");
-        exit;
-    } else {
-        include('main/ask.php');
-    }
-}
 
 
 else if (isset($_GET['q-id'])) {
@@ -61,15 +75,13 @@ else if (isset($_GET['account'])&& $_GET['account']==true){
 include('main/account.php');
   
 }
-
-else if (isset($_GET['logout'])&& $_GET['logout']==true){
-session_destroy();
-
-
-header("Location:index.php");
-exit;
-  
+else if (isset($_GET['ask-question']) && $_GET['ask-question'] === 'true') {
+    if (isset($_SESSION['user']['username'])) {
+         include('main/ask.php');
+    } 
 }
+
+
 else if (isset($_GET['search'])){
   $search = $_GET['search'];
   include('main/question.php');
