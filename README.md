@@ -64,5 +64,16 @@ Developer: Aadityansha
 Telegram: @aadityansha
 
 GitHub: aadityansha06
+   ```
+ ## 🌐 Connect with Me  
 
-Made with 💡 by Aadityansha — built using ChatGPT guidance 🧠
+📨 **Telegram:** [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aadityansha)  
+
+🔗 **GitHub:** [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aadityansha06)  
+
+---  
+## 🏆 Credits & Acknowledgments 🎖️
+🚀 **Developed & maintained by Aadityansha** 🎯  
+💡 **Feature Enhancements & Assistance by ChatGPT** <img width="28" height="28" src="https://img.icons8.com/fluency/48/chatbot--v1.png" alt="chatbot"/>  
+
+
