@@ -1,5 +1,5 @@
-# [📚]Quick‑Ask  
 
+## **<span style="color:#00FFFF;">Quick</span>‑<strong>Ask</strong>**
 Welcome to **Quick‑Ask** — your go-to Q&A platform for developers! Built with PHP, MySQL, and a sleek dark-cyan theme, it allows users to **ask**, **search**, and **answer** programming questions easily.
 
 ---
