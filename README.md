@@ -1,5 +1,5 @@
 
-![Quick‑Ask](https://quick-ask.byethost6.com/favicon-32x32.png) Quick-Ask
+![Quick‑Ask](https://quick-ask.byethost6.com/favicon-32x32.png) <strong>Quick-Ask</strong>
 
 Welcome to **Quick‑Ask** — your go-to Q&A platform for developers! Built with PHP, MySQL, and a sleek dark-cyan theme, it allows users to **ask**, **search**, and **answer** programming questions easily.
 
