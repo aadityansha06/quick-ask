@@ -13,7 +13,7 @@ Check it out:
 
 ## 🖼 Social Preview
 
-![Quick‑Ask Social Preview](https://quick-ask.byethost6.com/social-preview.png)
+![Quick‑Ask Social Preview](https://quick-ask.byethost6.com/preview.png)
 
 ---
 
