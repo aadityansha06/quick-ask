@@ -1,5 +1,6 @@
 
-## **<span style="color:#00FFFF;">Quick</span>‑<strong>Ask</strong>**
+![Quick‑Ask](https://quick-ask.byethost6.com/android-chrome-512x512.png)
+
 Welcome to **Quick‑Ask** — your go-to Q&A platform for developers! Built with PHP, MySQL, and a sleek dark-cyan theme, it allows users to **ask**, **search**, and **answer** programming questions easily.
 
 ---
